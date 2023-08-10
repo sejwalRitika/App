@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navlist {
+    display: flex;
+    background-color: rgb(50, 48, 48);
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    border-radius: 20px;
+    margin: 4px;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.navbar li {
+    list-style: none;
+    color: white;
+    padding: 22px 49px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: rgb(232, 221, 221);
+}
+
+.background {
+    background: url("images/fast\ food.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.middle {
+    font-size: 150px;
+    text-align: center;
+    color: rgb(236, 229, 229);
+    padding: 65px 120px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.half {
+    height: 100vh;
+}
+
+.ground {
+    background: url("images/thumb.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.mid {
+    height: 100vh;
+}
+
+.text {
+    font-size: 70px;
+    display: flex;
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.right {
+    font-size: 90px;
+    color: gray;
+}
+
+.pop {
+    font-size: 90px;
+    color: rgb(122, 100, 100);
+}
+
+.section {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'East Sea Dokdo', cursive;
+    background-color: aliceblue;
+}
+
+.left {
+    flex-direction: row-reverse;
+}
+
+.parsh {
+    padding: 50px 65px;
+}
+
+.sub {
+    font-size: 60px;
+    margin: 20px;
+}
+
+.thum img {
+    width: 230px;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.contanier-one {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contanier-one img {
+    width: 100%;
+}
+
+.contanier-three {
+    width: 70%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.sub-text {
+    font-size: 30px;
+    padding: 45px 65px;
+}
+
+.contanier-type {
+    background-color: bisque;
+    height: 400px;
+}
+
+.form {
+    margin: 25px auto;
+    max-width: 60%;
+}
+
+.form-input {
+    width: 100%;
+    margin: 14px 0;
+    padding: 5px 13px;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 10px
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border-radius: 17px;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.former {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    font-family: 'East Sea Dokdo', cursive;
+}
+
+.text-footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 30px 0;
+    font-size: 32px;
+}
